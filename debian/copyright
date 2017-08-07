@@ -1,0 +1,99 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ksmtp
+Source: https://download.kde.org/unstable/applications/
+
+Files: autotests/fakeserver.cpp
+       autotests/fakeserver.h
+       autotests/smtptest.cpp
+       autotests/smtptest.h
+       src/job.cpp
+       src/job.h
+       src/job_p.h
+       src/loginjob.cpp
+       src/loginjob.h
+       src/sendjob.cpp
+       src/sendjob.h
+       src/serverresponse_p.h
+       src/session.cpp
+       src/session.h
+       src/session_p.h
+       src/sessionthread.cpp
+       src/sessionthread_p.h
+Copyright: 2010, BetterInbox <contact@betterinbox.com>
+License: LGPL-2.1+
+
+Files: src/sessionuiproxy.cpp
+       src/sessionuiproxy.h
+Copyright: 2009, Andras Mantia <amantia@kde.org>
+License: LGPL-2+
+
+Files: *
+Copyright: Christophe Laveault <christophe@betterinbox.com>
+           2010, BetterInbox <contact@betterinbox.com>
+           2017, Daniel Vrátil <dvratil@kde.org>
+           Gregory Schlomoff <gregory.schlomoff@gmail.com>
+License: LGPL-2
+
+Files: tests/logintest.cpp
+Copyright: 2017, Daniel Vrátil <dvratil@kde.org>
+License: LGPL-2.1+
+
+Files: debian/*
+Copyright: 2017 Clive Johnston <clivejo@kubuntu.org>
+License: LGPL-2+
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General Public
+ License version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
+ 
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ 02110-1301  USA
+ .
+ On Debian systems, the complete text of the GNU Lesser General Public License
+ version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1".
