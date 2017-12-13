@@ -21,7 +21,6 @@ Vcs-Git: https://git.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/ksm
 Package: libkpimsmtp-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: foreign
 Depends: libboost-dev (>= 1.34.0~),
          libkf5coreaddons-dev (>= 5.31.0~),
          libkf5kio-dev (>= 5.31.0~),
