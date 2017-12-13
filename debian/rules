@@ -1,8 +1,6 @@
 #!/usr/bin/make -f
-include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
-%:
-	dh $@ 
+include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
 override_dh_auto_test:
 	# Disable auto test at build time, no way to test smtp as it requires network access
