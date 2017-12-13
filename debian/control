@@ -13,7 +13,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libsasl2-dev,
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.7.0~)
-Standards-Version: 4.0.0
+Standards-Version: 4.1.2
 Homepage: https://projects.kde.org/projects/kde/pim/ksmtp
 Vcs-Browser: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/ksmtp
 Vcs-Git: https://git.launchpad.net/~kubuntu-packagers/kubuntu-packaging/+git/ksmtp

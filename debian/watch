@@ -1,2 +1,2 @@
 version=4
-https://download.kde.org/stable/applications/([\d.]+)/src/@PACKAGE@-([\d.]+)\.tar\.xz
+https://download.kde.org/unstable/applications/([\d.]+)/src/@PACKAGE@-([\d.]+)\.tar\.xz
