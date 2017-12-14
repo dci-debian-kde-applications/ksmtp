@@ -1,6 +1,7 @@
-ksmtp (17.08.3-0ubuntu1) UNRELEASED; urgency=medium
+ksmtp (17.08.3-0neon) xenial; urgency=medium
 
   * New upstream release.
+  * 
 
  -- Scarlett Clark <sgclark@kde.org>  Thu, 14 Dec 2017 16:54:15 +0100
 
@@ -9,4 +10,7 @@ ksmtp (17.07.80-0ubuntu1) UNRELEASED; urgency=medium
   [ Clive Johnston ]
   * Initial packaging
 
- -- Clive Johnston <clivejo@kubuntu.org>  Wed, 26 Jul 2017 23:08:58 +0100
+  [ Neon CI ]
+  * New release
+
+ -- Neon CI <neon@kde.org>  Thu, 14 Dec 2017 11:22:06 +0000
