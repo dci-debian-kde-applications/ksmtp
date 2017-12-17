@@ -1,2 +1,3 @@
+etc/xdg/ksmtp.categories
 usr/lib/*/libKPimSMTP.so.5
 usr/lib/*/libKPimSMTP.so.5.*

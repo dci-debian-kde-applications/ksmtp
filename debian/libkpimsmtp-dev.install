@@ -1,6 +1,4 @@
-etc/xdg/ksmtp.categories
-usr/include/KPim/KSMTP/KSMTP/
-usr/include/KPim/KSMTP/ksmtp/
+usr/include/KPim/KSMTP/
 usr/include/KPim/ksmtp_version.h
 usr/lib/*/cmake/KPimSMTP/
 usr/lib/*/libKPimSMTP.so
