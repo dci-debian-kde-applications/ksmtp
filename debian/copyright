@@ -6,15 +6,13 @@ Files: *
 Copyright: 2010, BetterInbox <contact@betterinbox.com>
            Christophe Laveault <christophe@betterinbox.com>
            2017, Daniel Vrátil <dvratil@kde.org>
-           1991-1999, Free Software Foundation, Inc
            Gregory Schlomoff <gregory.schlomoff@gmail.com>
-           2011-2012, This_file_is_part_of_KDE
 License: LGPL-2.1+
 
 Files: po/ca/*
        po/ca@valencia/*
        po/uk/*
-Copyright: 2014-2017, This_file_is_part_of_KDE
+Copyright: 2014-2017, KDE e.V.
 License: LGPL-2.1+3+KDEeV
 
 Files: src/sessionuiproxy.cpp
