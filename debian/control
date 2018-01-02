@@ -3,16 +3,16 @@ Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
-Build-Depends: cmake (>= 2.8.12~),
+Build-Depends: cmake (>= 3.0~),
                debhelper (>= 9~),
                extra-cmake-modules (>= 5.39.0~),
                libkf5coreaddons-dev (>= 5.39.0~),
                libkf5i18n-dev (>= 5.39.0~),
                libkf5kio-dev (>= 5.39.0~),
-               libkf5mime-dev (>= 17.04.3~),
+               libkf5mime-dev (>= 17.12.0~),
                libsasl2-dev,
                pkg-kde-tools (>> 0.15.15),
-               qtbase5-dev (>= 5.7.0~)
+               qtbase5-dev (>= 5.7.0~),
 Standards-Version: 4.1.2
 Homepage: https://projects.kde.org/projects/kde/pim/ksmtp
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/ksmtp.git
@@ -22,9 +22,9 @@ Package: libkpimsmtp-dev
 Section: libdevel
 Architecture: any
 Depends: libkf5coreaddons-dev (>= 5.39.0~),
-         libkf5mime-dev (>= 17.04.3~),
+         libkf5mime-dev (>= 17.12.0~),
          libkpimsmtp5 (= ${binary:Version}),
-         ${misc:Depends}
+         ${misc:Depends},
 Description: library for handling SMTP data
  This library provides an API for handling SMTP services.
  SMTP (Simple Mail Transfer Protocol) is the most prevalent
